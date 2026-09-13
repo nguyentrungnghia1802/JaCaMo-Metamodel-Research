@@ -10,7 +10,8 @@ but partially unresolved. Các script hiện chạy từ **root repo**, paths đ
 | `write_report.py`, `DSML4JaCaMo-2024-forensic-audit.md` | Generator và final report; giữ, links tương đối dùng trên GitHub |
 | `full-audit.csv`, `full-audit.json` | Hai định dạng của 313 dòng audit; giữ để review/máy đọc |
 | `ValidateEcore.java`, `emf-validation.txt` | EMF load/Diagnostician/proxy checks và bằng chứng chạy; giữ |
-| `check_mapping.py`, `test_mapping_check.py`, `mapping-validation.json` | Static checker và mutation controls; không phải mapper/JSON Schema/USE compiler |
+| `check_mapping.py`, `test_mapping*.py`, `mapping-validation.json` | JSON Schema + semantic validator và negative controls; không phải runtime mapper |
+| `compile_mapping_use.py`, `ValidateMappingUse.java`, `use-mapping-validation.txt` | Static USE compilation gate và bằng chứng; không tạo MSystemState |
 | `paper-figure-original.jp2`, `paper.txt` | Ảnh nhúng/text trích PDF; derived nhưng là evidence quan trọng, giữ |
 | Crop `left/topright/bottomright/center/hierarchy/organisation.png` | Visual scratch từ Figure; ignore, chưa xóa |
 | `paper-figure.png`, `pdf-page3.png` | Decode/render generated; ignore, chưa xóa |
@@ -29,15 +30,16 @@ chỉ đổi newline của snapshot, không đổi transcription hoặc nội du
 
 ## Chạy lại
 
-Python 3, không cần package ngoài cho các lệnh sau. Từ root:
+Python 3.10+; Ecore validator dùng standard library, mapping validator cần jsonschema. Từ root:
 
 ```powershell
+python -m pip install -r mapping/requirements-validation.txt
 python validate_dsml4jacamo_ecore.py --self-test
 python audit/reconstruct_source.py
 python audit/audit_ecore.py
 python audit/write_report.py
 python audit/check_mapping.py --output audit/mapping-validation.json
-python -m unittest discover -s audit -p test_mapping_check.py -v
+python -m unittest discover -s audit -p "test_mapping*.py" -v
 ```
 
 Transcription đã có trước khi đọc target trong forensic review ban đầu. Rerun chỉ
@@ -61,8 +63,9 @@ java -cp "$emfCp;audit" ValidateEcore Core/JaCaMo-Metamodel.ecore
 
 Kiểm tra exit code từng lệnh; chỉ lưu stdout vào `emf-validation.txt` sau khi
 Java exit 0. Không commit JAR/classes. Evidence hiện có severity 0, không lỗi/cảnh
-báo load, không unresolved proxy. Mapping static PASS vẫn còn bốn reverse-role
-collision và runtime gaps trong [mapping README](../mapping/README.md); chưa có USE PASS.
+báo load, không unresolved proxy. Lần freeze 2026-09-14 đã xử lý reverse-role collision,
+thêm schema và compile USE declarations. Xem [mapping audit](../mapping/METAMODEL-MAPPING-AUDIT.md)
+và lệnh USE compiler trong [mapping README](../mapping/README.md). USE runtime ngoài phạm vi.
 
 Render scratch cần Poppler; ví dụ:
 `pdftoppm -f 3 -l 3 -png -singlefile "Core/Bài báo 1.pdf" audit/pdf-page3`.

@@ -1,0 +1,11 @@
+USE 7.5.0 @ 30d480dbcca2f404b1350039516a56f46c1efb1f
+PASS: USE declarations classes=37 attributes=67 associations=63 inheritance=14 orderedEnds=41 operations=0
+PASS: USE declarations classes=38 attributes=68 associations=63 inheritance=15 orderedEnds=41 operations=1
+PASS: reverse-role collision rejected by USE R035,R058
+PASS: reverse-role collision rejected by USE R031,R046
+PASS: reverse-role collision rejected by USE R023,R025
+PASS: reverse-role collision rejected by USE R047,R048
+PASS: reserved identifier rejected by USE FormationConstraints.from
+PASS: reserved identifier rejected by USE Link.from
+PASS: reserved identifier rejected by USE OPlan.Sequence
+Scope: metamodel declarations only; no runtime state or concrete bindings.

@@ -1,69 +1,9 @@
 {
   "status": "PASS",
-  "scope": "Static source/target declaration consistency only; runtime and USE compilation not validated",
+  "schemaStatus": "PASS",
+  "scope": "Metamodel mapping contract; USE compilation is a separate gate, runtime is out of scope",
   "errors": [],
-  "warnings": [
-    {
-      "code": "REVERSE_ROLE_COLLISION",
-      "detail": "AbsOperation.source_operation",
-      "bindings": [
-        "R035",
-        "R058"
-      ]
-    },
-    {
-      "code": "REVERSE_ROLE_COLLISION",
-      "detail": "Artifact.source_artifact",
-      "bindings": [
-        "R031",
-        "R046"
-      ]
-    },
-    {
-      "code": "REVERSE_ROLE_COLLISION",
-      "detail": "TriggeringEvent.source_Splan",
-      "bindings": [
-        "R023",
-        "R025"
-      ]
-    },
-    {
-      "code": "REVERSE_ROLE_COLLISION",
-      "detail": "TriggeringEvent.source_triggeredBy",
-      "bindings": [
-        "R047",
-        "R048"
-      ]
-    },
-    {
-      "code": "RUNTIME_NOT_VALIDATED",
-      "detail": "No project parser, semantic instance, USE model/compiler or event adapter is supplied; receiver/object/operation/parameter resolution is not executable here."
-    },
-    {
-      "code": "SCHEMA_NOT_SUPPLIED",
-      "detail": "schemaVersion is a document label; no JSON Schema or bdiMetamodelVersion field is supplied. This checker covers baseline consistency, not a published JSON Schema."
-    },
-    {
-      "code": "ORDERING_NOT_SPECIFIED",
-      "detail": "Ecore ordered=true multivalued references have no explicit order preservation in USE association rules."
-    },
-    {
-      "code": "CONTAINMENT_RUNTIME_NOT_VERIFIED",
-      "detail": "Per-association 0..1 reverse bounds alone do not prove global single-container or acyclic instance enforcement."
-    },
-    {
-      "code": "SELF_LINK_TEMPLATE_AMBIGUITY",
-      "detail": "Five self-reference templates repeat the same class placeholder for distinct source and target objects; no executable endpoint resolver supplied."
-    },
-    {
-      "code": "PROJECTION_SIGNATURE_UNRESOLVED",
-      "detail": "VP001-003 require resolved implementation/property/signature; Core contains no EOperation or EParameter declarations."
-    },
-    {
-      "code": "UNSET_DEFAULT_POLICY_REVIEW",
-      "detail": "LEAVE_UNDEFINED_IF_SOURCE_VALUE_IS_UNSET must distinguish unset, explicit false/0 and EMF effective defaults; A062 has no recovered author default."
-    }
-  ],
+  "warnings": [],
   "counts": {
     "classes": 37,
     "attributes": 67,

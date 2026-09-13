@@ -25,15 +25,17 @@ USE / validation / thesis experiments (runtime chưa có trong repo)
 
 Kiểm tra ngày 2026-09-13: **37 lớp, 67 attribute, 63 reference, 14 kế thừa**;
 verdict faithful but partially unresolved. Ba datatype và một default bị che
-chưa được đoán. Mapping khớp cấu trúc nhưng còn reverse-role collision và giới hạn
-receiver/object/signature resolution, chưa xác minh USE runtime.
+chưa được đoán. Ngày 2026-09-14, metamodel mapping V1 (schema 1.1.0) đã freeze:
+schema/semantic checks và USE metamodel compilation PASS; các role collision và
+target keyword đã xử lý. Runtime/binding/resolver vẫn ngoài phạm vi.
 
 Chạy từ root bằng Python 3:
 
 ```powershell
+python -m pip install -r mapping/requirements-validation.txt
 python validate_dsml4jacamo_ecore.py --self-test
 python audit/check_mapping.py
-python -m unittest discover -s audit -p test_mapping_check.py -v
+python -m unittest discover -s audit -p "test_mapping*.py" -v
 ```
 
 [audit/README.md](audit/README.md) hướng dẫn EMF/tái tạo audit và phân loại file.

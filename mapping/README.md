@@ -1,119 +1,143 @@
-# Mapping JaCaMo → USE
+# Metamodel Mapping V1
 
-Canonical: [jacamo-use-mapping-v1.json](jacamo-use-mapping-v1.json). Đây là
-**đặc tả transformation mức metamodel**, không phải runtime bindings cho một
-project/demo cụ thể, không phải output generated. Folder chuẩn hóa từ `Mapping/`
-thành `mapping/` trong lần tổ chức workspace này.
+**FROZEN — schema 1.1.0, 2026-09-14.** Canonical:
+[jacamo-use-mapping-v1.json](jacamo-use-mapping-v1.json); structural schema:
+[jacamo-use-mapping.schema.json](jacamo-use-mapping.schema.json).
+[Audit và freeze evidence](METAMODEL-MAPPING-AUDIT.md).
 
-## Input, target, version
+Contract trả lời: **JaCaMo metamodel element nào tương ứng với USE-side concept nào?**
+Nguồn duy nhất là [Core/JaCaMo-Metamodel.ecore](../Core/JaCaMo-Metamodel.ecore),
+path trong JSON tính từ root repo. Fingerprint Ecore giữ nguyên
+`c0aafab786c5ff3fcb468aeaf1b18b62865292e6590ffca2b9b2e962a9067fe7`.
+Không có `bdiMetamodelVersion` riêng; baseline được nhận diện bằng package/URI/hash.
 
-- `schemaVersion=1.0.0`, `status=LOCKED_BASELINE_V1`, mappingId:
-  `DSML4JaCaMo-2024-reconstructed__to__USE-v1`.
-- Không có `bdiMetamodelVersion`, file JSON Schema, executable parser/mapper,
-  sample JaCaMo project, demo instance mapping, USE model hoặc operation trace.
-  JSON parse PASS không phải JSON Schema validation PASS.
-- Input dự kiến: project `.jcm` cùng `.asl`, CArtAgO Java, Moise XML. Parser cần
-  tạo semantic model conforming [Core Ecore](../Core/JaCaMo-Metamodel.ecore).
-  Ecore là metamodel contract, không phải project input.
-- Target: USE `MModel`/`MSystemState`, dự kiến `generated-jacamo.use` và
-  `generated-jacamo.cmd`, hoặc USE API. Không có Ecore target thứ hai.
-- `sourceMetamodel.artifact` là đường dẫn **từ root repo**:
-  `Core/JaCaMo-Metamodel.ecore`; đã sửa tên cũ
-  `DSML4JaCaMo_2024_reconstructed(2).ecore` dựa trên SHA-256 trùng khớp.
-  Binding, version và fingerprint không thay vì thay đổi vị trí file.
+## Coverage và identity
 
-## Các binding được đặc tả
+| Loại | Coverage | Target |
+| --- | --- | --- |
+| C / EClass | 37/37 | MClass, giữ abstract/concrete |
+| A / EAttribute | 67/67 khai báo | MAttribute; EString→String, EInt→Integer, EBoolean→Boolean |
+| R / EReference | 63/63 | 27 composition + 36 association; 41 forward ends many-valued ordered |
+| I / eSuperType | 14/14 | Subclass → Superclass |
+| VP / projection | 7/7 audit | 3 conditional type templates + 4 reuse/verification anchors |
 
-| Nhóm | Số | Resolve/output |
-| --- | ---: | --- |
-| C001–C037 | 37 | `dSML4JaCaMo::<EClass>` → USE class cùng tên, giữ abstract |
-| A001–A067 | 67 | `<EClass>#<feature>` → cùng owner/tên; EString→String, EInt→Integer, EBoolean→Boolean |
-| R001–R063 | 63 | EReference → 27 composition + 36 association; giữ forward role/target/direction/bounds |
-| I001–I014 | 14 | `Subclass->super::Superclass` → kế thừa USE như Ecore |
-| VP001–VP007 | 7 | Projection có điều kiện; không phải bảy operation đã resolve |
+Identity là `dSML4JaCaMo::<Class>`, `dSML4JaCaMo::<DeclaringOwner>#<feature>` hoặc
+`dSML4JaCaMo::<Subclass>->super::<Superclass>`. Bare `operation` không phải lookup key.
+`Artifact#operation` và `ExternalAction#operation` là hai nguồn khác nhau.
+Inherited attribute như Scheme.id resolve qua Organisation#id, không tạo bản khai báo thứ hai.
+C/A/R/I/VP IDs là stable binding IDs; không thay source identity bằng label hiển thị.
 
-Association tên `<Owner>_<reference>_<Target>`. firstEnd là source, secondEnd là
-target; forward role giữ exact spelling. Containment có diamond firstEnd và
-reverse bound `0..1`; non-containment có reverse bound `*`.
-Reverse role `source_<reference>` do mapping sinh, `reverseAuthoritative=false`;
-không phải eOpposite do paper công bố.
+Forward reference names giữ nguyên. Reverse roles mặc định `source_<feature>`;
+chỉ tám ends bị collision đổi thành `source_<Owner>_<feature>`:
 
-Attribute chỉ copy semantic value đã resolve; unset để undefined. JSON ghi 13
-source explicit defaults nhưng không chỉ định tự gán khi unset. Expression, Rule,
-Context vẫn String, không ngầm parse thành OCL.
-
-## Projection và resolution
-
-- **VP001:** resolved Java Artifact implementation → concrete USE subclass Artifact.
-  Trace giữ fully-qualified Java name; tên trùng thêm stable short hash. Thuật toán
-  hash/sanitization cụ thể chưa định nghĩa.
-- **VP002:** observable property có tên/kiểu chắc chắn → concrete Artifact attribute,
-  đồng thời giữ structural ObsProperty object/link. Không resolve thì giữ structural
-  representation, phát diagnostic, không đoán kiểu.
-- **VP003:** resolved owner/name/parameter names/types/result từ CArtAgO → USE MOperation.
-  Chưa có signature cụ thể để kiểm tra tham số. Core có **0 EOperation/EParameter**;
-  `AbsOperation`/`Operation` là EClass và `Artifact.Parameter:EString` không phải signature.
-- **VP004–006:** giữ ExternalAction.operation→AbsOperation,
-  ObsProperty.obsproperty→Belief, OGoal.OGoalToGoal→Goal. Trace AbsOperation object tới
-  projected operation chỉ tồn tại khi VP003 thành công.
-- **VP007:** giữ Norm/object/links; không tự chuyển deontic labels thành OCL.
-
-Object materialization dự kiến `!create`, `!set`, `!insert`, với trace semantic
-object → USE object. Replay cần adapter cung cấp **artifact receiver cụ thể**,
-operation/args cho `!openter`/`!opexit`, cùng observed state changes.
-Chưa có executable resolver/trace schema cho identity/lifecycle/scope, receiver
-ambiguity, overloads, argument order/type coercion, generics/varargs hay result.
-Không suy receiver từ Agent name hoặc filename.
-
-## Consistency và vấn đề còn tồn tại
-
-Ngày 2026-09-13: static consistency **PASS**, 0 errors: hash/package, đủ 37/67/63/14
-binding, exact class/feature names, datatype/default, inheritance, target declarations,
-bounds, containment/diamond, navigation/link templates khớp Core và chính sách JSON.
-Không thiếu source feature/declared target class. Ba clipped features vẫn
-`NOT_MAPPED_NOT_AN_EATTRIBUTE`; A062 isBroadcast không có explicit default.
-Xem [kết quả](../audit/mapping-validation.json).
-
-**USE compilation/runtime chưa được xác minh; không tuyên bố mapping chạy hoàn chỉnh.**
-
-| Vấn đề | Evidence/limitation |
+| Cặp | Reverse role mới |
 | --- | --- |
-| Reverse role trùng | R035/R058: `AbsOperation.source_operation`; R031/R046: `Artifact.source_artifact`; R023/R025: `TriggeringEvent.source_Splan`; R047/R048: `TriggeringEvent.source_triggeredBy` |
-| Ambiguous navigation | Association names khác nhau nhưng reverse navigation string giống; `reverseAuthoritative=false` không tự giải quyết ambiguity. Cần USE compilation/naming design, chưa tự rename binding |
-| Receiver/object resolution | Chỉ có policy/precondition, không có project instance để xác minh object/receiver duy nhất |
-| Self-link templates | Năm self-reference lặp cùng class placeholder cho hai đầu; executor phải phân biệt hai object, không buộc chúng đồng nhất |
-| Ordering | Ecore ordered=true mặc định; association policy chưa nói cách giữ collection order; không suy action chain từ thứ tự insert |
-| Containment | Reverse 0..1 mỗi association chưa chứng minh global single-container/acyclic instance enforcement trong USE |
-| Defaults | Cần phân biệt unset, false/0 tường minh và effective EMF defaults; không đoán ba datatype và isBroadcast default |
-| Review flags | Năm flag inheritance cũ giữ nguyên; audit Core đã xác minh P1, wording REVIEW không phủ nhận kết quả audit |
-| Version/dependencies | USE repo/manual chưa pin release/commit; không có JSON Schema; projections thiếu concrete signatures/inputs |
+| R035 / R058 | source_Artifact_operation / source_ExternalAction_operation |
+| R031 / R046 | source_Workspace_artifact / source_Agent_artifact |
+| R023 / R025 | source_Scheme_Splan / source_OPlan_Splan |
+| R047 / R048 | source_Belief_triggeredBy / source_Goal_triggeredBy |
 
-## Validation/error codes
+Reverse roles là USE-side support, không phải eOpposite của paper. Không hỗ trợ
+lookup bằng alias cũ bị trùng. Validator kiểm tra cả namespace có kế thừa và attribute/role collision.
 
-JSON chỉ có workflow labels: `RECONCILE_REQUIRED` khi hash khác,
-`REVIEW_REQUIRED` cho additions, `BLOCK` khi type/bounds/containment/supertype
-thay đổi hoặc feature mất/rename. **Không có catalog runtime error codes**.
+USE lexer từ chối ba attribute names; chỉ target được escape có thể truy ngược:
 
-[Checker audit](../audit/check_mapping.py) bổ sung các codes cục bộ:
-`INPUT_INVALID`, `VERSION_UNSUPPORTED`, `SOURCE_PATH_STALE`, `RECONCILE_REQUIRED`,
-`COVERAGE_MISMATCH`, `MISSING_SOURCE`, `DUPLICATE_BINDING`, `TARGET_MISMATCH`,
-`TYPE_MISMATCH`, `DEFAULT_MISMATCH`, `MULTIPLICITY_MISMATCH`,
-`CONTAINMENT_MISMATCH`, `INHERITANCE_MISMATCH`, `UNRESOLVED_POLICY_MISMATCH`.
-Errors trả exit 1. `REVERSE_ROLE_COLLISION` và các warning trong report ghi target/runtime
-limitations; static PASS không xóa warnings hoặc chứng minh USE PASS.
+| Source identity | Target attribute |
+| --- | --- |
+| FormationConstraints#from | FormationConstraints.ecore_FormationConstraints_from |
+| Link#from | Link.ecore_Link_from |
+| OPlan#Sequence | OPlan.ecore_OPlan_Sequence |
 
-## Sau khi Ecore thay đổi
+Các tên nguồn/Ecore không đổi. JSON `targetAttributeEscapes` là bảng tên target chính thức.
+Schema 1.1.0 thêm contract/projection anchors/ordering metadata; không cần schema major
+vì cấu trúc mới là bổ sung và các đổi tên sửa target vốn không compile hợp lệ.
+Consumer dùng reverse strings/ba attribute target cũ phải migrate theo hai bảng trên;
+không tuyên bố các target names này backward-compatible. Forward/source IDs được giữ.
 
-Chạy từ root với Python 3:
+## Bảy projection
+
+`metamodelContract` là phần máy kiểm tra: sourceElements, structuralBindings,
+targetConcept/baseClass, dependsOn, mode, direction, assumptions, informationLoss.
+Văn bản `source`/`target` cũ là mô tả, không dùng như bare-name resolver.
+
+| ID | Ý nghĩa / target / điều kiện |
+| --- | --- |
+| VP001 | Artifact + className → template MClass subtype of Artifact; cần external implementation type đã resolve; không sinh concrete class trong baseline |
+| VP002 | Artifact.obsproperty + ObsProperty → template MAttribute trên subtype VP001; cần external property name/type; vẫn giữ structural objects/links |
+| VP003 | Artifact.operation + AbsOperation/subtypes → template MOperation trên subtype VP001; cần complete ordered signature hợp lệ với USE; không coi Operation EClass là EOperation |
+| VP004 | Reuse R058 ExternalAction.operation→AbsOperation; trace tới VP003 nếu có thuộc tầng sau; không thêm association |
+| VP005 | Reuse R037 ObsProperty.obsproperty→Belief; không đảo direction hoặc suy đồng bộ runtime |
+| VP006 | Reuse R028 OGoal.OGoalToGoal→Goal; không suy goal achievement |
+| VP007 | Reuse Norm/C006, A004/A005, R012/R013; giữ strings/links, không chuyển deontic labels thành OCL |
+
+Tất cả anchors resolve từ Ecore và target concept/structural binding có thật. VP001–003
+là **metamodel templates**, không phải concrete operations đã được bind. USE type fixture
+kiểm tra subtype + attribute + operation declaration; không chứa JaCaMo case study hay objects.
+Không projection nào xóa baseline information. Java behavior/percept synchronization/
+goal satisfaction/deontic semantics không được đại diện đầy đủ và không thuộc lời hứa V1.
+
+## Multiplicity, ordering và unresolved
+
+Copy exact forward bounds/containment. USE diamond ở firstEnd; inverse bound 0..1
+cho composition, * cho non-containment. Copy sourceOrdered/sourceUnique; many-valued
+forward ends giữ ordered=true, scalar ends không thêm modifier ordered. Classifier-level
+containment recursion theo Ecore vẫn được giữ. Instance single-container/acyclic validation
+là trách nhiệm tầng thực thi, không thêm OCL hay workaround vào metamodel mapping.
+
+Ba tên `ObsProperty.initialValue`, `AbsOperation.paramName`, `TriggeringEvent.addAndDel`
+chỉ có annotation, không có EAttribute: giữ NOT_MAPPED_NOT_AN_EATTRIBUTE. A062 isBroadcast
+không có explicit default. Không lấy intrinsic false làm tác giả default.
+Attribute bounds 0..1/namespace là canonical reconstruction choices, không chứng minh paper.
+13 explicit defaults được giữ trong mapping metadata; materialization unset/effective values
+nằm ngoài phạm vi. Integer USE rộng hơn EInt; không tuyên bố runtime range enforcement.
+
+## Validation và OUT OF SCOPE
+
+Schema Draft 2020-12 đóng cấu trúc; semantic validator tính coverage từ Ecore, kiểm
+source kind/owner/exact key, types/defaults, target/forward/reverse ends, inheritance,
+duplicate/stale/orphan identity, inherited namespace, ordering và projection anchors/dependencies.
+Schema kiểm version và normative contract; malformed projection không còn chỉ là warning.
+Errors trả exit 1. Các codes chính: SCHEMA_INVALID, MISSING_SOURCE, SOURCE_KEY_MISMATCH,
+BINDING_KIND, DUPLICATE_BINDING, COVERAGE_MISMATCH, TARGET_MISMATCH, ROLE_COLLISION,
+INHERITED_NAME_COLLISION, INHERITANCE_MISMATCH, ORDERING_MISMATCH, RECONCILE_REQUIRED.
+
+**OUT OF SCOPE / LATER LAYER:** auctioneer→auction1, concrete-model binding,
+receiver/object runtime resolver, live JaCaMo state, current USE MSystemState,
+event subscription/synchronization, parser integration, OCL/deontic execution.
+Existing runtimeMaterialization/runtimeLinkCommand/architecture project examples remain
+non-executable legacy context per contract. They do not determine mapping identity and
+are not requirements of the frozen layer. No runtime logic was implemented.
+
+## Reproduce checks
+
+Python 3.10+, from repository root:
 
 ```powershell
+python -m pip install -r mapping/requirements-validation.txt
 python validate_dsml4jacamo_ecore.py --self-test
 python audit/check_mapping.py --output audit/mapping-validation.json
-python -m unittest discover -s audit -p test_mapping_check.py -v
+python -m unittest discover -s audit -p "test_mapping*.py" -v
 ```
 
-Nếu hash khác, đối chiếu structural inventory trước; không đổi hash chỉ để qua gate.
-Reconcile exact keys/types/bounds/containment/inheritance, defaults, unresolved names,
-review flags. Không retarget theo tên gần giống. Minor version cho compatible additions,
-major cho breaking semantics theo evolutionPolicy. Cần project/signature fixtures và
-USE compiler/runtime validation trước khi kết luận các projection thực thi đúng.
+Static USE gate uses JDK 21, Maven, USE 7.5.0 pinned at
+`30d480dbcca2f404b1350039516a56f46c1efb1f`. The clone/build belongs in ignored temp/;
+no USE source/JAR is vendored. On a fresh checkout:
+
+```powershell
+git clone https://github.com/useocl/use.git temp/use-source
+git -C temp/use-source checkout --detach 30d480dbcca2f404b1350039516a56f46c1efb1f
+mvn -q -f temp/use-source/pom.xml -pl use-core -am package -DskipTests
+mvn -q -f temp/use-source/use-core/pom.xml dependency:build-classpath -Dmdep.outputFile=dependency-classpath.txt
+$useCp = (Get-Content temp/use-source/use-core/dependency-classpath.txt -Raw).Trim() + [IO.Path]::PathSeparator + (Resolve-Path temp/use-source/use-core/target/use-core-7.5.0.jar).Path
+python audit/compile_mapping_use.py --use-classpath $useCp --java "$env:JAVA_HOME/bin/java.exe" --output audit/use-mapping-validation.txt
+```
+
+Check each exit code before the next command. This builds the external USE compiler,
+not runtime integration; upstream USE's own test suite is not part of the gate.
+The gate compiles baseline/type fixture, rejects four legacy collision pairs and
+three reserved-identifier regressions. [Log](../audit/use-mapping-validation.txt).
+EMF commands remain in [audit README](../audit/README.md).
+
+When Ecore/schema/mapping changes, freeze evidence becomes stale: rerun all gates,
+review structural diff and projections, reconcile hash/version deliberately. Never
+update only the fingerprint to silence RECONCILE_REQUIRED. See [freeze manifest](freeze-manifest.json).

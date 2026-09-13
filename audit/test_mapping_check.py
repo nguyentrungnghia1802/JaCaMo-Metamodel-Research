@@ -7,8 +7,7 @@ class MappingChecks(unittest.TestCase):
     def test_control(self):
         r=check(load(MAPPING))
         self.assertEqual(r['errors'],[])
-        collisions={x['detail'] for x in r['warnings'] if x['code']=='REVERSE_ROLE_COLLISION'}
-        self.assertIn('TriggeringEvent.source_Splan',collisions)
+        self.assertEqual(r['warnings'],[])
 
     def test_mutated_bindings_are_rejected(self):
         cases=[

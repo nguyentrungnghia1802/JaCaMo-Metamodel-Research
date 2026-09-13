@@ -1,0 +1,19 @@
+test_control (test_mapping_check.MappingChecks.test_control) ... ok
+test_mutated_bindings_are_rejected (test_mapping_check.MappingChecks.test_mutated_bindings_are_rejected) ... ok
+test_each_reverse_collision_is_error (test_mapping_contract.ContractTests.test_each_reverse_collision_is_error) ... ok
+test_inherited_navigation_collision (test_mapping_contract.ContractTests.test_inherited_navigation_collision) ... ok
+test_malformed_projection (test_mapping_contract.ContractTests.test_malformed_projection) ... ok
+test_missing_projection_source (test_mapping_contract.ContractTests.test_missing_projection_source) ... ok
+test_owner_identity_and_reference_mutations (test_mapping_contract.ContractTests.test_owner_identity_and_reference_mutations) ... ok
+test_projection_contract_mutations (test_mapping_contract.ContractTests.test_projection_contract_mutations) ... ok
+test_schema_rejects_unknown_property (test_mapping_contract.ContractTests.test_schema_rejects_unknown_property) ... ok
+test_schema_version_and_shapes (test_mapping_contract.ContractTests.test_schema_version_and_shapes) ... ok
+test_unknown_projection (test_mapping_contract.ContractTests.test_unknown_projection) ... ok
+test_unqualified_source (test_mapping_contract.ContractTests.test_unqualified_source) ... ok
+test_use_reserved_attribute_names_rejected (test_mapping_contract.ContractTests.test_use_reserved_attribute_names_rejected) ... ok
+test_wrong_inheritance_kind (test_mapping_contract.ContractTests.test_wrong_inheritance_kind) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 6.495s
+
+OK
