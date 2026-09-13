@@ -1,0 +1,7 @@
+resource.errors=0 resource.warnings=0
+unresolved.proxies=0
+severity=0 source=org.eclipse.emf.ecore code=0 Diagnosis of org.eclipse.emf.ecore.impl.EPackageImpl@2ddc8ecb{file:/D:/_CODE_BANK/Project_/08_Thesis/JaCaMo/Core/JaCaMo-Metamodel.ecore#/}
+Message.isBroadcast.defaultValueLiteral=null effectiveDefault=false
+Scheme.inherited.id.owner=Organisation
+Norm.inherited.normativespecification.containment=true
+classes=37 attributes=67 references=63 generalizations=14

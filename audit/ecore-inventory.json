@@ -1,0 +1,3062 @@
+{
+  "package": {
+    "{http://www.omg.org/XMI}version": "2.0",
+    "name": "dSML4JaCaMo",
+    "nsURI": "urn:dsml4jacamo:2024:reconstructed",
+    "nsPrefix": "dSML4JaCaMo"
+  },
+  "annotations": [
+    {
+      "source": "urn:reconstruction:provenance",
+      "details": {
+        "status": "paper-derived-conservative-reconstruction-not-original-author-artifact",
+        "primarySource": "Bai bao 1.pdf; Figure 1, PDF page 3 / printed page 639",
+        "sourceSHA256": "93f5d1450946869a254919bd79f9636ab123f46575bab0ded3b68499c7d07461",
+        "doi": "10.15439/2024F6157",
+        "supportingEvidence": "Section III, PDF page 2; Section IV / Listing 1, PDF pages 2 and 4",
+        "namespacePolicy": "nsURI and nsPrefix are local reconstruction metadata. Package name inferred from Listing 1 dSML4JaCaMo.Operation.",
+        "defaultsPolicy": "Attribute bounds are not printed: Ecore defaults 0..1 retained. Unshown flags retain Ecore defaults; not claimed to be original settings.",
+        "unresolvedPolicy": "Three named attributes with clipped types are recorded as annotations, not assigned guessed ETypes. See reconstruction notes.",
+        "scope": "Only DSML4JaCaMo 2024; no added concepts, runtime classes, OCL, or semantics."
+      }
+    }
+  ],
+  "classes": [
+    {
+      "name": "MAS",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Organisation",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "NormativeSpecification",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "StructuralSpecification",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "FunctionalSpecification",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Norm",
+      "abstract": false,
+      "eSuperTypes": [
+        "Organisation"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Group",
+      "abstract": false,
+      "eSuperTypes": [
+        "Organisation"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Role",
+      "abstract": false,
+      "eSuperTypes": [
+        "Organisation"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "FormationConstraints",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Link",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Scheme",
+      "abstract": false,
+      "eSuperTypes": [
+        "Organisation"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1. Organisation inheritance also explains Listing 1 sch.id; no duplicate declared id."
+          }
+        }
+      ]
+    },
+    {
+      "name": "OPlan",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "OGoal",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Mission",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Workspace",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Artifact",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Port",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "ObsProperty",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        },
+        {
+          "source": "urn:reconstruction:unresolved",
+          "details": {
+            "visibleAttribute": "initialValue",
+            "evidence": "Figure 1 class box clips the datatype below the visible attribute name.",
+            "decision": "No EAttribute declared: EType and default cannot be established from Section III or Listing 1; do not guess.",
+            "status": "known-name-unresolved-type"
+          }
+        }
+      ]
+    },
+    {
+      "name": "AbsOperation",
+      "abstract": true,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        },
+        {
+          "source": "urn:reconstruction:unresolved",
+          "details": {
+            "visibleAttribute": "paramName",
+            "evidence": "Figure 1 class box clips the datatype below the visible attribute name.",
+            "decision": "No EAttribute declared: EType and default cannot be established from Section III or Listing 1; do not guess.",
+            "status": "known-name-unresolved-type"
+          }
+        }
+      ]
+    },
+    {
+      "name": "LinkedOperation",
+      "abstract": false,
+      "eSuperTypes": [
+        "AbsOperation"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "InternalOperation",
+      "abstract": false,
+      "eSuperTypes": [
+        "AbsOperation"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "GuardOperation",
+      "abstract": false,
+      "eSuperTypes": [
+        "AbsOperation"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Operation",
+      "abstract": false,
+      "eSuperTypes": [
+        "AbsOperation"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Agent",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Belief",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Rule",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Goal",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Context",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Plan",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Body",
+      "abstract": false,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "BodyTerm",
+      "abstract": true,
+      "eSuperTypes": [],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Action",
+      "abstract": true,
+      "eSuperTypes": [
+        "BodyTerm"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "ExternalAction",
+      "abstract": false,
+      "eSuperTypes": [
+        "Action"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "InternalAction",
+      "abstract": false,
+      "eSuperTypes": [
+        "Action"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "MentalNotes",
+      "abstract": false,
+      "eSuperTypes": [
+        "BodyTerm"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "Message",
+      "abstract": false,
+      "eSuperTypes": [
+        "InternalAction"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1."
+          }
+        }
+      ]
+    },
+    {
+      "name": "TriggeringEvent",
+      "abstract": false,
+      "eSuperTypes": [
+        "Action"
+      ],
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3; Section III",
+            "confidence": "high",
+            "note": "Class box and any hollow-triangle generalization in Figure 1. The grey line from this class joins InternalAction at the triangle pointing to Action."
+          }
+        },
+        {
+          "source": "urn:reconstruction:unresolved",
+          "details": {
+            "visibleAttribute": "addAndDel",
+            "evidence": "Figure 1 class box clips the datatype below the visible attribute name.",
+            "decision": "No EAttribute declared: EType and default cannot be established from Section III or Listing 1; do not guess.",
+            "status": "known-name-unresolved-type"
+          }
+        }
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "owner": "MAS",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "MAS",
+      "name": "PlatformParamters",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        },
+        {
+          "source": "urn:reconstruction:decision",
+          "details": {
+            "note": "Exact printed spelling PlatformParamter + wrapped s retained; not normalized to PlatformParameters."
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Organisation",
+      "name": "id",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 lines 37, 40 and inherited sch.id at line 53",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Norm",
+      "name": "type",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Norm",
+      "name": "timeConstraint",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Group",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Group",
+      "name": "min",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt",
+      "EType": "EInt",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Group",
+      "name": "max",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt",
+      "EType": "EInt",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Role",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Role",
+      "name": "min",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt",
+      "EType": "EInt",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Role",
+      "name": "max",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt",
+      "EType": "EInt",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "biDir",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "scope",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": "intra-group"
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "type",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "to",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "from",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Link",
+      "name": "type",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Link",
+      "name": "biDir",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "Link",
+      "name": "scope",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": "intra-group"
+    },
+    {
+      "owner": "Link",
+      "name": "from",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Link",
+      "name": "to",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Scheme",
+      "name": "PlanOperator",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "OPlan",
+      "name": "Sequence",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "OPlan",
+      "name": "Parallel",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 58",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "OGoal",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 lines 56 and 60",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "OGoal",
+      "name": "isRootGoal",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 55",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "Mission",
+      "name": "min",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt",
+      "EType": "EInt",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Mission",
+      "name": "max",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt",
+      "EType": "EInt",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Workspace",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Workspace",
+      "name": "Path",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Workspace",
+      "name": "Host",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Artifact",
+      "name": "artifactName",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Artifact",
+      "name": "className",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 lines 16 and 18",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Artifact",
+      "name": "Parameter",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Artifact",
+      "name": "IDVar",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Artifact",
+      "name": "isInitial",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "Port",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "ObsProperty",
+      "name": "ParamName",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "ObsProperty",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "className",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 22",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "signalExpression",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "awaitExpression",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "await_timeExpression",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Agent",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 4",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Belief",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Belief",
+      "name": "isInitial",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "Rule",
+      "name": "Expression",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Goal",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Context",
+      "name": "Expression",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 7",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Plan",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 7",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Plan",
+      "name": "asBeliefAddition",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 7 compares to string true",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Plan",
+      "name": "asQuery",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Plan",
+      "name": "isAtomic",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Plan",
+      "name": "atomicLabel",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Plan",
+      "name": "argID",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Plan",
+      "name": "isInitial",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "Body",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Action",
+      "name": "Name",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Action",
+      "name": "Expression",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 9",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Message",
+      "name": "content",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "Message",
+      "name": "isBroadcast",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        },
+        {
+          "source": "urn:reconstruction:unresolved",
+          "details": {
+            "evidence": "Figure 1 shows isBroadcast : EBoolean = but clips the value.",
+            "decision": "No explicit defaultValueLiteral; effective false is the EBoolean intrinsic default, not a recovered author default."
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "isSeparateIntention",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "isInitial",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "ttf",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt",
+      "EType": "EInt",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "ds",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString",
+      "EType": "EString",
+      "defaultValueLiteral": null
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "deletion",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EBoolean",
+      "EType": "EBoolean",
+      "defaultValueLiteral": "false"
+    }
+  ],
+  "references": [
+    {
+      "owner": "MAS",
+      "name": "agent",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Agent",
+      "target": "Agent",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "MAS",
+      "name": "workspace",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 14",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Workspace",
+      "target": "Workspace",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "MAS",
+      "name": "organisation",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 36",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Organisation",
+      "target": "Organisation",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Organisation",
+      "name": "normativespecification",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 68",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//NormativeSpecification",
+      "target": "NormativeSpecification",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Organisation",
+      "name": "structuralspecification",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 45",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//StructuralSpecification",
+      "target": "StructuralSpecification",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Organisation",
+      "name": "functionalspecification",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 51",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//FunctionalSpecification",
+      "target": "FunctionalSpecification",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Organisation",
+      "name": "deploysAgent",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Agent",
+      "target": "Agent",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "NormativeSpecification",
+      "name": "norm",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 69",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Norm",
+      "target": "Norm",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "StructuralSpecification",
+      "name": "group",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Group",
+      "target": "Group",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "StructuralSpecification",
+      "name": "role",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Role",
+      "target": "Role",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "FunctionalSpecification",
+      "name": "scheme",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 52",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Scheme",
+      "target": "Scheme",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Norm",
+      "name": "Nrole",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Role",
+      "target": "Role",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Norm",
+      "name": "NMission",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Mission",
+      "target": "Mission",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Group",
+      "name": "hasSubGroups",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Group",
+      "target": "Group",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Group",
+      "name": "RefRole",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Role",
+      "target": "Role",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Group",
+      "name": "formationconstraints",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//FormationConstraints",
+      "target": "FormationConstraints",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Group",
+      "name": "link",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Link",
+      "target": "Link",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Role",
+      "name": "Extendsrole",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Role",
+      "target": "Role",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Role",
+      "name": "players",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Agent",
+      "target": "Agent",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Scheme",
+      "name": "mission",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Mission",
+      "target": "Mission",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Scheme",
+      "name": "SchemeOgoal",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1 1..*; Listing 1 line 54",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//OGoal",
+      "target": "OGoal",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Scheme",
+      "name": "SchemeOPlan",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//OPlan",
+      "target": "OPlan",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Scheme",
+      "name": "Splan",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//TriggeringEvent",
+      "target": "TriggeringEvent",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "OPlan",
+      "name": "FirstOgoal",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 59",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//OGoal",
+      "target": "OGoal",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "OPlan",
+      "name": "Splan",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//TriggeringEvent",
+      "target": "TriggeringEvent",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "OGoal",
+      "name": "NextOgoal",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//OGoal",
+      "target": "OGoal",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "OGoal",
+      "name": "OGoalToOPlan",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 57",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//OPlan",
+      "target": "OPlan",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "OGoal",
+      "name": "OGoalToGoal",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Goal",
+      "target": "Goal",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Mission",
+      "name": "ogoal",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//OGoal",
+      "target": "OGoal",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Mission",
+      "name": "Mplan",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//TriggeringEvent",
+      "target": "TriggeringEvent",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Workspace",
+      "name": "artifact",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 15",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Artifact",
+      "target": "Artifact",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Workspace",
+      "name": "hasSubworkspace",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Workspace",
+      "target": "Workspace",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Artifact",
+      "name": "port",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Port",
+      "target": "Port",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Artifact",
+      "name": "obsproperty",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//ObsProperty",
+      "target": "ObsProperty",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Artifact",
+      "name": "operation",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 20",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//AbsOperation",
+      "target": "AbsOperation",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Port",
+      "name": "linkArtifacts",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Artifact",
+      "target": "Artifact",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "ObsProperty",
+      "name": "obsproperty",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        },
+        {
+          "source": "urn:reconstruction:decision",
+          "details": {
+            "evidence": "Figure 1: long line starts at ObsProperty left edge and ends with an arrow at Belief top; printed role name is obsproperty, multiplicity 0..*. Preserve this direction and name despite the counterintuitive name."
+          }
+        }
+      ],
+      "rawEType": "#//Belief",
+      "target": "Belief",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "RefObsproperty",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//ObsProperty",
+      "target": "ObsProperty",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Operation",
+      "name": "guardedBy",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//GuardOperation",
+      "target": "GuardOperation",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Operation",
+      "name": "callsInternal",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//InternalOperation",
+      "target": "InternalOperation",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Agent",
+      "name": "belief",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Belief",
+      "target": "Belief",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Agent",
+      "name": "rule",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Rule",
+      "target": "Rule",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Agent",
+      "name": "plan",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 6",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Plan",
+      "target": "Plan",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Agent",
+      "name": "hasGoal",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Goal",
+      "target": "Goal",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Agent",
+      "name": "joinWorkspace",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Workspace",
+      "target": "Workspace",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Agent",
+      "name": "artifact",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Artifact",
+      "target": "Artifact",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Belief",
+      "name": "triggeredBy",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//TriggeringEvent",
+      "target": "TriggeringEvent",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Goal",
+      "name": "triggeredBy",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//TriggeringEvent",
+      "target": "TriggeringEvent",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Context",
+      "name": "contextRule",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Rule",
+      "target": "Rule",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Context",
+      "name": "contextBelief",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Belief",
+      "target": "Belief",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Plan",
+      "name": "hasBody",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 lines 8-9",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Body",
+      "target": "Body",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Plan",
+      "name": "hasContext",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 7",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Context",
+      "target": "Context",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Plan",
+      "name": "hasAction",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 line 9",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Action",
+      "target": "Action",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Plan",
+      "name": "RefArtifact",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Artifact",
+      "target": "Artifact",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Body",
+      "name": "bodyterm",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//BodyTerm",
+      "target": "BodyTerm",
+      "containment": true,
+      "eOpposite": null
+    },
+    {
+      "owner": "Body",
+      "name": "firstAction",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Listing 1 lines 8-9",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Action",
+      "target": "Action",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Action",
+      "name": "nextAction",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1; Section III action-chain self-reference; Listing 1 lines 8-9 use firstAction and thePlanSeq",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Action",
+      "target": "Action",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "ExternalAction",
+      "name": "operation",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//AbsOperation",
+      "target": "AbsOperation",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "MentalNotes",
+      "name": "impliesG",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Goal",
+      "target": "Goal",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "MentalNotes",
+      "name": "impliesB",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Belief",
+      "target": "Belief",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "Message",
+      "name": "messageToagent",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Agent",
+      "target": "Agent",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "planoperator",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//OPlan",
+      "target": "OPlan",
+      "containment": false,
+      "eOpposite": null
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "triggersPlan",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "annotations": [
+        {
+          "source": "urn:reconstruction:provenance",
+          "details": {
+            "source": "Figure 1, PDF page 3",
+            "confidence": "high"
+          }
+        }
+      ],
+      "rawEType": "#//Plan",
+      "target": "Plan",
+      "containment": false,
+      "eOpposite": null
+    }
+  ]
+}

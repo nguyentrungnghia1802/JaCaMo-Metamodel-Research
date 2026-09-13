@@ -1,0 +1,1515 @@
+{
+  "provenance": "Independent transcription of PDF page 3 / embedded R34.jp2; target Ecore not read during transcription. Attribute bounds are not printed. Unshown default is not evidence of absence.",
+  "classes": [
+    {
+      "name": "MAS",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Agent",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Workspace",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Artifact",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Port",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "ObsProperty",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "AbsOperation",
+      "abstract": true,
+      "eSuperTypes": []
+    },
+    {
+      "name": "LinkedOperation",
+      "abstract": false,
+      "eSuperTypes": [
+        "AbsOperation"
+      ]
+    },
+    {
+      "name": "InternalOperation",
+      "abstract": false,
+      "eSuperTypes": [
+        "AbsOperation"
+      ]
+    },
+    {
+      "name": "GuardOperation",
+      "abstract": false,
+      "eSuperTypes": [
+        "AbsOperation"
+      ]
+    },
+    {
+      "name": "Operation",
+      "abstract": false,
+      "eSuperTypes": [
+        "AbsOperation"
+      ]
+    },
+    {
+      "name": "Organisation",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "NormativeSpecification",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "StructuralSpecification",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "FunctionalSpecification",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Norm",
+      "abstract": false,
+      "eSuperTypes": [
+        "Organisation"
+      ]
+    },
+    {
+      "name": "Group",
+      "abstract": false,
+      "eSuperTypes": [
+        "Organisation"
+      ]
+    },
+    {
+      "name": "Role",
+      "abstract": false,
+      "eSuperTypes": [
+        "Organisation"
+      ]
+    },
+    {
+      "name": "Scheme",
+      "abstract": false,
+      "eSuperTypes": [
+        "Organisation"
+      ]
+    },
+    {
+      "name": "FormationConstraints",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Link",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Mission",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "OPlan",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "OGoal",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Belief",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Rule",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Goal",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Plan",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Body",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Context",
+      "abstract": false,
+      "eSuperTypes": []
+    },
+    {
+      "name": "BodyTerm",
+      "abstract": true,
+      "eSuperTypes": []
+    },
+    {
+      "name": "Action",
+      "abstract": true,
+      "eSuperTypes": [
+        "BodyTerm"
+      ]
+    },
+    {
+      "name": "ExternalAction",
+      "abstract": false,
+      "eSuperTypes": [
+        "Action"
+      ]
+    },
+    {
+      "name": "InternalAction",
+      "abstract": false,
+      "eSuperTypes": [
+        "Action"
+      ]
+    },
+    {
+      "name": "TriggeringEvent",
+      "abstract": false,
+      "eSuperTypes": [
+        "Action"
+      ]
+    },
+    {
+      "name": "MentalNotes",
+      "abstract": false,
+      "eSuperTypes": [
+        "BodyTerm"
+      ]
+    },
+    {
+      "name": "Message",
+      "abstract": false,
+      "eSuperTypes": [
+        "InternalAction"
+      ]
+    }
+  ],
+  "attributes": [
+    {
+      "owner": "MAS",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, MAS attribute compartment"
+    },
+    {
+      "owner": "MAS",
+      "name": "PlatformParamters",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, MAS attribute compartment"
+    },
+    {
+      "owner": "Agent",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Agent attribute compartment"
+    },
+    {
+      "owner": "Workspace",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Workspace attribute compartment"
+    },
+    {
+      "owner": "Workspace",
+      "name": "Path",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Workspace attribute compartment"
+    },
+    {
+      "owner": "Workspace",
+      "name": "Host",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Workspace attribute compartment"
+    },
+    {
+      "owner": "Artifact",
+      "name": "artifactName",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Artifact attribute compartment"
+    },
+    {
+      "owner": "Artifact",
+      "name": "className",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Artifact attribute compartment"
+    },
+    {
+      "owner": "Artifact",
+      "name": "Parameter",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Artifact attribute compartment"
+    },
+    {
+      "owner": "Artifact",
+      "name": "IDVar",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Artifact attribute compartment"
+    },
+    {
+      "owner": "Artifact",
+      "name": "isInitial",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, Artifact attribute compartment"
+    },
+    {
+      "owner": "Port",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Port attribute compartment"
+    },
+    {
+      "owner": "ObsProperty",
+      "name": "ParamName",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, ObsProperty attribute compartment"
+    },
+    {
+      "owner": "ObsProperty",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, ObsProperty attribute compartment"
+    },
+    {
+      "owner": "ObsProperty",
+      "name": "initialValue",
+      "EType": null,
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, ObsProperty attribute compartment"
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "className",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, AbsOperation attribute compartment"
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "signalExpression",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, AbsOperation attribute compartment"
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "awaitExpression",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, AbsOperation attribute compartment"
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "await_timeExpression",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, AbsOperation attribute compartment"
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "paramName",
+      "EType": null,
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, AbsOperation attribute compartment"
+    },
+    {
+      "owner": "Organisation",
+      "name": "id",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Organisation attribute compartment"
+    },
+    {
+      "owner": "Norm",
+      "name": "type",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Norm attribute compartment"
+    },
+    {
+      "owner": "Norm",
+      "name": "timeConstraint",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Norm attribute compartment"
+    },
+    {
+      "owner": "Group",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Group attribute compartment"
+    },
+    {
+      "owner": "Group",
+      "name": "min",
+      "EType": "EInt",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Group attribute compartment"
+    },
+    {
+      "owner": "Group",
+      "name": "max",
+      "EType": "EInt",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Group attribute compartment"
+    },
+    {
+      "owner": "Role",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Role attribute compartment"
+    },
+    {
+      "owner": "Role",
+      "name": "min",
+      "EType": "EInt",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Role attribute compartment"
+    },
+    {
+      "owner": "Role",
+      "name": "max",
+      "EType": "EInt",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Role attribute compartment"
+    },
+    {
+      "owner": "Scheme",
+      "name": "PlanOperator",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Scheme attribute compartment"
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, FormationConstraints attribute compartment"
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "biDir",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, FormationConstraints attribute compartment"
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "scope",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "intra-group",
+      "evidence": "P1 Figure 1, FormationConstraints attribute compartment"
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "type",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, FormationConstraints attribute compartment"
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "to",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, FormationConstraints attribute compartment"
+    },
+    {
+      "owner": "FormationConstraints",
+      "name": "from",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, FormationConstraints attribute compartment"
+    },
+    {
+      "owner": "Link",
+      "name": "type",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Link attribute compartment"
+    },
+    {
+      "owner": "Link",
+      "name": "biDir",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, Link attribute compartment"
+    },
+    {
+      "owner": "Link",
+      "name": "scope",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "intra-group",
+      "evidence": "P1 Figure 1, Link attribute compartment"
+    },
+    {
+      "owner": "Link",
+      "name": "from",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Link attribute compartment"
+    },
+    {
+      "owner": "Link",
+      "name": "to",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Link attribute compartment"
+    },
+    {
+      "owner": "Mission",
+      "name": "max",
+      "EType": "EInt",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Mission attribute compartment"
+    },
+    {
+      "owner": "Mission",
+      "name": "min",
+      "EType": "EInt",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Mission attribute compartment"
+    },
+    {
+      "owner": "OPlan",
+      "name": "Sequence",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, OPlan attribute compartment"
+    },
+    {
+      "owner": "OPlan",
+      "name": "Parallel",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, OPlan attribute compartment"
+    },
+    {
+      "owner": "OGoal",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, OGoal attribute compartment"
+    },
+    {
+      "owner": "OGoal",
+      "name": "isRootGoal",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, OGoal attribute compartment"
+    },
+    {
+      "owner": "Belief",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Belief attribute compartment"
+    },
+    {
+      "owner": "Belief",
+      "name": "isInitial",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, Belief attribute compartment"
+    },
+    {
+      "owner": "Rule",
+      "name": "Expression",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Rule attribute compartment"
+    },
+    {
+      "owner": "Goal",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Goal attribute compartment"
+    },
+    {
+      "owner": "Plan",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Plan attribute compartment"
+    },
+    {
+      "owner": "Plan",
+      "name": "asBeliefAddition",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Plan attribute compartment"
+    },
+    {
+      "owner": "Plan",
+      "name": "asQuery",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Plan attribute compartment"
+    },
+    {
+      "owner": "Plan",
+      "name": "isAtomic",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Plan attribute compartment"
+    },
+    {
+      "owner": "Plan",
+      "name": "atomicLabel",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Plan attribute compartment"
+    },
+    {
+      "owner": "Plan",
+      "name": "argID",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Plan attribute compartment"
+    },
+    {
+      "owner": "Plan",
+      "name": "isInitial",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, Plan attribute compartment"
+    },
+    {
+      "owner": "Body",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Body attribute compartment"
+    },
+    {
+      "owner": "Context",
+      "name": "Expression",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Context attribute compartment"
+    },
+    {
+      "owner": "Action",
+      "name": "Name",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Action attribute compartment"
+    },
+    {
+      "owner": "Action",
+      "name": "Expression",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Action attribute compartment"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "isSeparateIntention",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, TriggeringEvent attribute compartment"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "isInitial",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, TriggeringEvent attribute compartment"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "ttf",
+      "EType": "EInt",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, TriggeringEvent attribute compartment"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "ds",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, TriggeringEvent attribute compartment"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "deletion",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "false",
+      "evidence": "P1 Figure 1, TriggeringEvent attribute compartment"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "addAndDel",
+      "EType": null,
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, TriggeringEvent attribute compartment"
+    },
+    {
+      "owner": "Message",
+      "name": "content",
+      "EType": "EString",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "NOT_SHOWN",
+      "evidence": "P1 Figure 1, Message attribute compartment"
+    },
+    {
+      "owner": "Message",
+      "name": "isBroadcast",
+      "EType": "EBoolean",
+      "lowerBound": null,
+      "upperBound": null,
+      "defaultValueLiteral": "UNRESOLVED",
+      "evidence": "P1 Figure 1, Message attribute compartment"
+    }
+  ],
+  "references": [
+    {
+      "owner": "MAS",
+      "name": "agent",
+      "target": "Agent",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow MAS.agent; filled source diamond"
+    },
+    {
+      "owner": "MAS",
+      "name": "workspace",
+      "target": "Workspace",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow MAS.workspace; filled source diamond"
+    },
+    {
+      "owner": "MAS",
+      "name": "organisation",
+      "target": "Organisation",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow MAS.organisation; filled source diamond"
+    },
+    {
+      "owner": "Agent",
+      "name": "belief",
+      "target": "Belief",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Agent.belief; filled source diamond"
+    },
+    {
+      "owner": "Agent",
+      "name": "rule",
+      "target": "Rule",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Agent.rule; filled source diamond"
+    },
+    {
+      "owner": "Agent",
+      "name": "hasGoal",
+      "target": "Goal",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Agent.hasGoal; filled source diamond"
+    },
+    {
+      "owner": "Agent",
+      "name": "plan",
+      "target": "Plan",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Agent.plan; filled source diamond"
+    },
+    {
+      "owner": "Agent",
+      "name": "joinWorkspace",
+      "target": "Workspace",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Agent.joinWorkspace; no source diamond"
+    },
+    {
+      "owner": "Agent",
+      "name": "artifact",
+      "target": "Artifact",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Agent.artifact; no source diamond"
+    },
+    {
+      "owner": "Organisation",
+      "name": "normativespecification",
+      "target": "NormativeSpecification",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Organisation.normativespecification; filled source diamond"
+    },
+    {
+      "owner": "Organisation",
+      "name": "structuralspecification",
+      "target": "StructuralSpecification",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Organisation.structuralspecification; filled source diamond"
+    },
+    {
+      "owner": "Organisation",
+      "name": "functionalspecification",
+      "target": "FunctionalSpecification",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Organisation.functionalspecification; filled source diamond"
+    },
+    {
+      "owner": "Organisation",
+      "name": "deploysAgent",
+      "target": "Agent",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Organisation.deploysAgent; no source diamond"
+    },
+    {
+      "owner": "NormativeSpecification",
+      "name": "norm",
+      "target": "Norm",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow NormativeSpecification.norm; filled source diamond"
+    },
+    {
+      "owner": "StructuralSpecification",
+      "name": "group",
+      "target": "Group",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow StructuralSpecification.group; filled source diamond"
+    },
+    {
+      "owner": "StructuralSpecification",
+      "name": "role",
+      "target": "Role",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow StructuralSpecification.role; filled source diamond"
+    },
+    {
+      "owner": "FunctionalSpecification",
+      "name": "scheme",
+      "target": "Scheme",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow FunctionalSpecification.scheme; filled source diamond"
+    },
+    {
+      "owner": "Norm",
+      "name": "Nrole",
+      "target": "Role",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Norm.Nrole; no source diamond"
+    },
+    {
+      "owner": "Norm",
+      "name": "NMission",
+      "target": "Mission",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Norm.NMission; no source diamond"
+    },
+    {
+      "owner": "Group",
+      "name": "hasSubGroups",
+      "target": "Group",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Group.hasSubGroups; no source diamond"
+    },
+    {
+      "owner": "Group",
+      "name": "RefRole",
+      "target": "Role",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Group.RefRole; no source diamond"
+    },
+    {
+      "owner": "Group",
+      "name": "formationconstraints",
+      "target": "FormationConstraints",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Group.formationconstraints; filled source diamond"
+    },
+    {
+      "owner": "Group",
+      "name": "link",
+      "target": "Link",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Group.link; filled source diamond"
+    },
+    {
+      "owner": "Role",
+      "name": "Extendsrole",
+      "target": "Role",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Role.Extendsrole; no source diamond"
+    },
+    {
+      "owner": "Role",
+      "name": "players",
+      "target": "Agent",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Role.players; no source diamond"
+    },
+    {
+      "owner": "Scheme",
+      "name": "SchemeOPlan",
+      "target": "OPlan",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Scheme.SchemeOPlan; filled source diamond"
+    },
+    {
+      "owner": "Scheme",
+      "name": "SchemeOgoal",
+      "target": "OGoal",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Scheme.SchemeOgoal; filled source diamond"
+    },
+    {
+      "owner": "Scheme",
+      "name": "mission",
+      "target": "Mission",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Scheme.mission; filled source diamond"
+    },
+    {
+      "owner": "Scheme",
+      "name": "Splan",
+      "target": "TriggeringEvent",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Scheme.Splan; no source diamond"
+    },
+    {
+      "owner": "Mission",
+      "name": "ogoal",
+      "target": "OGoal",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Mission.ogoal; no source diamond"
+    },
+    {
+      "owner": "Mission",
+      "name": "Mplan",
+      "target": "TriggeringEvent",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Mission.Mplan; no source diamond"
+    },
+    {
+      "owner": "OPlan",
+      "name": "FirstOgoal",
+      "target": "OGoal",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow OPlan.FirstOgoal; no source diamond"
+    },
+    {
+      "owner": "OPlan",
+      "name": "Splan",
+      "target": "TriggeringEvent",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow OPlan.Splan; no source diamond"
+    },
+    {
+      "owner": "OGoal",
+      "name": "NextOgoal",
+      "target": "OGoal",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow OGoal.NextOgoal; no source diamond"
+    },
+    {
+      "owner": "OGoal",
+      "name": "OGoalToOPlan",
+      "target": "OPlan",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow OGoal.OGoalToOPlan; no source diamond"
+    },
+    {
+      "owner": "OGoal",
+      "name": "OGoalToGoal",
+      "target": "Goal",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow OGoal.OGoalToGoal; no source diamond"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "planoperator",
+      "target": "OPlan",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow TriggeringEvent.planoperator; no source diamond"
+    },
+    {
+      "owner": "TriggeringEvent",
+      "name": "triggersPlan",
+      "target": "Plan",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow TriggeringEvent.triggersPlan; no source diamond"
+    },
+    {
+      "owner": "Belief",
+      "name": "triggeredBy",
+      "target": "TriggeringEvent",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Belief.triggeredBy; no source diamond"
+    },
+    {
+      "owner": "Goal",
+      "name": "triggeredBy",
+      "target": "TriggeringEvent",
+      "lowerBound": 1,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Goal.triggeredBy; no source diamond"
+    },
+    {
+      "owner": "Workspace",
+      "name": "artifact",
+      "target": "Artifact",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Workspace.artifact; filled source diamond"
+    },
+    {
+      "owner": "Workspace",
+      "name": "hasSubworkspace",
+      "target": "Workspace",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Workspace.hasSubworkspace; no source diamond"
+    },
+    {
+      "owner": "Artifact",
+      "name": "port",
+      "target": "Port",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Artifact.port; filled source diamond"
+    },
+    {
+      "owner": "Artifact",
+      "name": "obsproperty",
+      "target": "ObsProperty",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Artifact.obsproperty; filled source diamond"
+    },
+    {
+      "owner": "Artifact",
+      "name": "operation",
+      "target": "AbsOperation",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Artifact.operation; filled source diamond"
+    },
+    {
+      "owner": "Port",
+      "name": "linkArtifacts",
+      "target": "Artifact",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Port.linkArtifacts; no source diamond"
+    },
+    {
+      "owner": "ObsProperty",
+      "name": "obsproperty",
+      "target": "Belief",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow ObsProperty.obsproperty; no source diamond"
+    },
+    {
+      "owner": "AbsOperation",
+      "name": "RefObsproperty",
+      "target": "ObsProperty",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow AbsOperation.RefObsproperty; no source diamond"
+    },
+    {
+      "owner": "Operation",
+      "name": "guardedBy",
+      "target": "GuardOperation",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Operation.guardedBy; no source diamond"
+    },
+    {
+      "owner": "Operation",
+      "name": "callsInternal",
+      "target": "InternalOperation",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Operation.callsInternal; no source diamond"
+    },
+    {
+      "owner": "ExternalAction",
+      "name": "operation",
+      "target": "AbsOperation",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow ExternalAction.operation; no source diamond"
+    },
+    {
+      "owner": "Plan",
+      "name": "RefArtifact",
+      "target": "Artifact",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Plan.RefArtifact; no source diamond"
+    },
+    {
+      "owner": "Plan",
+      "name": "hasContext",
+      "target": "Context",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Plan.hasContext; filled source diamond"
+    },
+    {
+      "owner": "Plan",
+      "name": "hasBody",
+      "target": "Body",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Plan.hasBody; filled source diamond"
+    },
+    {
+      "owner": "Plan",
+      "name": "hasAction",
+      "target": "Action",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Plan.hasAction; filled source diamond"
+    },
+    {
+      "owner": "Body",
+      "name": "bodyterm",
+      "target": "BodyTerm",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": true,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Body.bodyterm; filled source diamond"
+    },
+    {
+      "owner": "Body",
+      "name": "firstAction",
+      "target": "Action",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Body.firstAction; no source diamond"
+    },
+    {
+      "owner": "Action",
+      "name": "nextAction",
+      "target": "Action",
+      "lowerBound": 0,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Action.nextAction; no source diamond"
+    },
+    {
+      "owner": "Context",
+      "name": "contextRule",
+      "target": "Rule",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Context.contextRule; no source diamond"
+    },
+    {
+      "owner": "Context",
+      "name": "contextBelief",
+      "target": "Belief",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Context.contextBelief; no source diamond"
+    },
+    {
+      "owner": "MentalNotes",
+      "name": "impliesG",
+      "target": "Goal",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow MentalNotes.impliesG; no source diamond"
+    },
+    {
+      "owner": "MentalNotes",
+      "name": "impliesB",
+      "target": "Belief",
+      "lowerBound": 1,
+      "upperBound": 1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow MentalNotes.impliesB; no source diamond"
+    },
+    {
+      "owner": "Message",
+      "name": "messageToagent",
+      "target": "Agent",
+      "lowerBound": 0,
+      "upperBound": -1,
+      "containment": false,
+      "direction": "source -> target",
+      "evidence": "P1 Figure 1: labelled arrow Message.messageToagent; no source diamond"
+    }
+  ],
+  "unresolved": [
+    "ObsProperty.initialValue datatype",
+    "AbsOperation.paramName datatype",
+    "TriggeringEvent.addAndDel datatype",
+    "Message.isBroadcast explicit default",
+    "Attribute multiplicities not displayed",
+    "Completeness of attribute compartments with scrollbars cannot be proven"
+  ],
+  "listing_checks": [
+    "MAS.agent",
+    "MAS.workspace",
+    "MAS.organisation",
+    "Agent.plan",
+    "Workspace.artifact",
+    "Artifact.operation",
+    "Organisation.structuralspecification",
+    "Organisation.functionalspecification",
+    "Organisation.normativespecification",
+    "FunctionalSpecification.scheme",
+    "Scheme.SchemeOgoal",
+    "OGoal.OGoalToOPlan",
+    "OPlan.FirstOgoal",
+    "Plan.hasContext",
+    "Plan.hasBody",
+    "Plan.hasAction",
+    "Body.firstAction",
+    "NormativeSpecification.norm"
+  ],
+  "source_conflicts": [
+    "Listing 1 line 53 uses sch.id; Figure 1 Scheme inherits Organisation.id, so no need to add a local id.",
+    "Section III FormationConstaints is a prose typo; Figure 1 FormationConstraints prevails.",
+    "Section III says mission contains goals; Figure 1 Mission.ogoal has no diamond, so non-containment prevails."
+  ]
+}

@@ -1,0 +1,22 @@
+# Research source/config/evidence are tracked; ignore only build/cache/temp.
+__pycache__/
+*.pyc
+*.class
+build/
+out/
+target/
+tmp/
+temp/
+*.log
+.DS_Store
+Thumbs.db
+
+# Reproducible visual scratch; original evidence and final reports stay tracked.
+/audit/bottomright.png
+/audit/center.png
+/audit/hierarchy.png
+/audit/left.png
+/audit/organisation.png
+/audit/topright.png
+/audit/paper-figure.png
+/audit/pdf-page3.png

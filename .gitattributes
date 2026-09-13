@@ -1,0 +1,16 @@
+# Preserve research input bytes: the mapping and audit pin their SHA-256.
+/Core/*.ecore -text
+/Core/*.drawio -text
+/Core/*.pdf -text
+/Core/*.jpg -text
+/audit/paper-figure-original.jp2 -text
+
+# Stable, portable generated inventories and documentation on all platforms.
+*.md text eol=lf
+*.py text eol=lf
+*.java text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf

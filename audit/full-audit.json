@@ -1,0 +1,2819 @@
+[
+  {
+    "Category": "EClass",
+    "Element": "MAS",
+    "Source evidence": "P1: hộp MAS; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Agent",
+    "Source evidence": "P1: hộp Agent; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Workspace",
+    "Source evidence": "P1: hộp Workspace; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Artifact",
+    "Source evidence": "P1: hộp Artifact; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Port",
+    "Source evidence": "P1: hộp Port; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "ObsProperty",
+    "Source evidence": "P1: hộp ObsProperty; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "AbsOperation",
+    "Source evidence": "P1: hộp AbsOperation; abstract=true; eSuperTypes=[]",
+    "Current Ecore": "abstract=true; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "LinkedOperation",
+    "Source evidence": "P1: hộp LinkedOperation; abstract=false; eSuperTypes=AbsOperation",
+    "Current Ecore": "abstract=false; eSuperTypes=AbsOperation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "InternalOperation",
+    "Source evidence": "P1: hộp InternalOperation; abstract=false; eSuperTypes=AbsOperation",
+    "Current Ecore": "abstract=false; eSuperTypes=AbsOperation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "GuardOperation",
+    "Source evidence": "P1: hộp GuardOperation; abstract=false; eSuperTypes=AbsOperation",
+    "Current Ecore": "abstract=false; eSuperTypes=AbsOperation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Operation",
+    "Source evidence": "P1: hộp Operation; abstract=false; eSuperTypes=AbsOperation",
+    "Current Ecore": "abstract=false; eSuperTypes=AbsOperation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Organisation",
+    "Source evidence": "P1: hộp Organisation; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "NormativeSpecification",
+    "Source evidence": "P1: hộp NormativeSpecification; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "StructuralSpecification",
+    "Source evidence": "P1: hộp StructuralSpecification; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "FunctionalSpecification",
+    "Source evidence": "P1: hộp FunctionalSpecification; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Norm",
+    "Source evidence": "P1: hộp Norm; abstract=false; eSuperTypes=Organisation",
+    "Current Ecore": "abstract=false; eSuperTypes=Organisation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Group",
+    "Source evidence": "P1: hộp Group; abstract=false; eSuperTypes=Organisation",
+    "Current Ecore": "abstract=false; eSuperTypes=Organisation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Role",
+    "Source evidence": "P1: hộp Role; abstract=false; eSuperTypes=Organisation",
+    "Current Ecore": "abstract=false; eSuperTypes=Organisation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Scheme",
+    "Source evidence": "P1: hộp Scheme; abstract=false; eSuperTypes=Organisation",
+    "Current Ecore": "abstract=false; eSuperTypes=Organisation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "FormationConstraints",
+    "Source evidence": "P1: hộp FormationConstraints; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Link",
+    "Source evidence": "P1: hộp Link; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Mission",
+    "Source evidence": "P1: hộp Mission; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "OPlan",
+    "Source evidence": "P1: hộp OPlan; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "OGoal",
+    "Source evidence": "P1: hộp OGoal; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Belief",
+    "Source evidence": "P1: hộp Belief; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Rule",
+    "Source evidence": "P1: hộp Rule; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Goal",
+    "Source evidence": "P1: hộp Goal; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Plan",
+    "Source evidence": "P1: hộp Plan; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Body",
+    "Source evidence": "P1: hộp Body; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Context",
+    "Source evidence": "P1: hộp Context; abstract=false; eSuperTypes=[]",
+    "Current Ecore": "abstract=false; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "BodyTerm",
+    "Source evidence": "P1: hộp BodyTerm; abstract=true; eSuperTypes=[]",
+    "Current Ecore": "abstract=true; eSuperTypes=[]",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Action",
+    "Source evidence": "P1: hộp Action; abstract=true; eSuperTypes=BodyTerm",
+    "Current Ecore": "abstract=true; eSuperTypes=BodyTerm",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "ExternalAction",
+    "Source evidence": "P1: hộp ExternalAction; abstract=false; eSuperTypes=Action",
+    "Current Ecore": "abstract=false; eSuperTypes=Action",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "InternalAction",
+    "Source evidence": "P1: hộp InternalAction; abstract=false; eSuperTypes=Action",
+    "Current Ecore": "abstract=false; eSuperTypes=Action",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "TriggeringEvent",
+    "Source evidence": "P1: hộp TriggeringEvent; abstract=false; eSuperTypes=Action",
+    "Current Ecore": "abstract=false; eSuperTypes=Action",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "MentalNotes",
+    "Source evidence": "P1: hộp MentalNotes; abstract=false; eSuperTypes=BodyTerm",
+    "Current Ecore": "abstract=false; eSuperTypes=BodyTerm",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EClass",
+    "Element": "Message",
+    "Source evidence": "P1: hộp Message; abstract=false; eSuperTypes=InternalAction",
+    "Current Ecore": "abstract=false; eSuperTypes=InternalAction",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "MAS.Name",
+    "Source evidence": "P1: MAS.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "MAS.PlatformParamters",
+    "Source evidence": "P1: MAS.PlatformParamters : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Agent.Name",
+    "Source evidence": "P1: Agent.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Workspace.Name",
+    "Source evidence": "P1: Workspace.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Workspace.Path",
+    "Source evidence": "P1: Workspace.Path : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Workspace.Host",
+    "Source evidence": "P1: Workspace.Host : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Artifact.artifactName",
+    "Source evidence": "P1: Artifact.artifactName : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Artifact.className",
+    "Source evidence": "P1: Artifact.className : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Artifact.Parameter",
+    "Source evidence": "P1: Artifact.Parameter : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Artifact.IDVar",
+    "Source evidence": "P1: Artifact.IDVar : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Artifact.isInitial",
+    "Source evidence": "P1: Artifact.isInitial : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Port.Name",
+    "Source evidence": "P1: Port.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "ObsProperty.ParamName",
+    "Source evidence": "P1: ObsProperty.ParamName : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "ObsProperty.Name",
+    "Source evidence": "P1: ObsProperty.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "ObsProperty.initialValue",
+    "Source evidence": "P1: ObsProperty.initialValue : UNRESOLVED (bị che)",
+    "Current Ecore": "Không có EAttribute; có EAnnotation urn:reconstruction:unresolved, visibleAttribute=initialValue",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Giữ annotation; không gán EType/default; chỉ bổ sung khi có bằng chứng nguồn."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "AbsOperation.className",
+    "Source evidence": "P1: AbsOperation.className : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "AbsOperation.signalExpression",
+    "Source evidence": "P1: AbsOperation.signalExpression : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "AbsOperation.awaitExpression",
+    "Source evidence": "P1: AbsOperation.awaitExpression : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "AbsOperation.await_timeExpression",
+    "Source evidence": "P1: AbsOperation.await_timeExpression : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "AbsOperation.paramName",
+    "Source evidence": "P1: AbsOperation.paramName : UNRESOLVED (bị che)",
+    "Current Ecore": "Không có EAttribute; có EAnnotation urn:reconstruction:unresolved, visibleAttribute=paramName",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Giữ annotation; không gán EType/default; chỉ bổ sung khi có bằng chứng nguồn."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Organisation.id",
+    "Source evidence": "P1: Organisation.id : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Norm.type",
+    "Source evidence": "P1: Norm.type : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Norm.timeConstraint",
+    "Source evidence": "P1: Norm.timeConstraint : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Group.Name",
+    "Source evidence": "P1: Group.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Group.min",
+    "Source evidence": "P1: Group.min : EInt",
+    "Current Ecore": "EInt [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Group.max",
+    "Source evidence": "P1: Group.max : EInt",
+    "Current Ecore": "EInt [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Role.Name",
+    "Source evidence": "P1: Role.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Role.min",
+    "Source evidence": "P1: Role.min : EInt",
+    "Current Ecore": "EInt [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Role.max",
+    "Source evidence": "P1: Role.max : EInt",
+    "Current Ecore": "EInt [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Scheme.PlanOperator",
+    "Source evidence": "P1: Scheme.PlanOperator : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "FormationConstraints.Name",
+    "Source evidence": "P1: FormationConstraints.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "FormationConstraints.biDir",
+    "Source evidence": "P1: FormationConstraints.biDir : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "FormationConstraints.scope",
+    "Source evidence": "P1: FormationConstraints.scope : EString = intra-group",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral='intra-group'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "FormationConstraints.type",
+    "Source evidence": "P1: FormationConstraints.type : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "FormationConstraints.to",
+    "Source evidence": "P1: FormationConstraints.to : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "FormationConstraints.from",
+    "Source evidence": "P1: FormationConstraints.from : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Link.type",
+    "Source evidence": "P1: Link.type : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Link.biDir",
+    "Source evidence": "P1: Link.biDir : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Link.scope",
+    "Source evidence": "P1: Link.scope : EString = intra-group",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral='intra-group'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Link.from",
+    "Source evidence": "P1: Link.from : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Link.to",
+    "Source evidence": "P1: Link.to : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Mission.max",
+    "Source evidence": "P1: Mission.max : EInt",
+    "Current Ecore": "EInt [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Mission.min",
+    "Source evidence": "P1: Mission.min : EInt",
+    "Current Ecore": "EInt [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "OPlan.Sequence",
+    "Source evidence": "P1: OPlan.Sequence : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "OPlan.Parallel",
+    "Source evidence": "P1: OPlan.Parallel : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "OGoal.Name",
+    "Source evidence": "P1: OGoal.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "OGoal.isRootGoal",
+    "Source evidence": "P1: OGoal.isRootGoal : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Belief.Name",
+    "Source evidence": "P1: Belief.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Belief.isInitial",
+    "Source evidence": "P1: Belief.isInitial : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Rule.Expression",
+    "Source evidence": "P1: Rule.Expression : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Goal.Name",
+    "Source evidence": "P1: Goal.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Plan.Name",
+    "Source evidence": "P1: Plan.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Plan.asBeliefAddition",
+    "Source evidence": "P1: Plan.asBeliefAddition : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Plan.asQuery",
+    "Source evidence": "P1: Plan.asQuery : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Plan.isAtomic",
+    "Source evidence": "P1: Plan.isAtomic : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Plan.atomicLabel",
+    "Source evidence": "P1: Plan.atomicLabel : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Plan.argID",
+    "Source evidence": "P1: Plan.argID : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Plan.isInitial",
+    "Source evidence": "P1: Plan.isInitial : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Body.Name",
+    "Source evidence": "P1: Body.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Context.Expression",
+    "Source evidence": "P1: Context.Expression : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Action.Name",
+    "Source evidence": "P1: Action.Name : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Action.Expression",
+    "Source evidence": "P1: Action.Expression : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "TriggeringEvent.isSeparateIntention",
+    "Source evidence": "P1: TriggeringEvent.isSeparateIntention : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "TriggeringEvent.isInitial",
+    "Source evidence": "P1: TriggeringEvent.isInitial : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "TriggeringEvent.ttf",
+    "Source evidence": "P1: TriggeringEvent.ttf : EInt",
+    "Current Ecore": "EInt [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "TriggeringEvent.ds",
+    "Source evidence": "P1: TriggeringEvent.ds : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "TriggeringEvent.deletion",
+    "Source evidence": "P1: TriggeringEvent.deletion : EBoolean = false",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral='false'",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "TriggeringEvent.addAndDel",
+    "Source evidence": "P1: TriggeringEvent.addAndDel : UNRESOLVED (bị che)",
+    "Current Ecore": "Không có EAttribute; có EAnnotation urn:reconstruction:unresolved, visibleAttribute=addAndDel",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Giữ annotation; không gán EType/default; chỉ bổ sung khi có bằng chứng nguồn."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Message.content",
+    "Source evidence": "P1: Message.content : EString",
+    "Current Ecore": "EString [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EAttribute",
+    "Element": "Message.isBroadcast",
+    "Source evidence": "P1: Message.isBroadcast : EBoolean",
+    "Current Ecore": "EBoolean [0..1]; defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "MAS.agent",
+    "Source evidence": "P1: MAS.agent -> Agent [1..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "MAS.agent -> Agent [1..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "MAS.workspace",
+    "Source evidence": "P1: MAS.workspace -> Workspace [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "MAS.workspace -> Workspace [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "MAS.organisation",
+    "Source evidence": "P1: MAS.organisation -> Organisation [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "MAS.organisation -> Organisation [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Agent.belief",
+    "Source evidence": "P1: Agent.belief -> Belief [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Agent.belief -> Belief [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Agent.rule",
+    "Source evidence": "P1: Agent.rule -> Rule [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Agent.rule -> Rule [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Agent.hasGoal",
+    "Source evidence": "P1: Agent.hasGoal -> Goal [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Agent.hasGoal -> Goal [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Agent.plan",
+    "Source evidence": "P1: Agent.plan -> Plan [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Agent.plan -> Plan [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Agent.joinWorkspace",
+    "Source evidence": "P1: Agent.joinWorkspace -> Workspace [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Agent.joinWorkspace -> Workspace [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Agent.artifact",
+    "Source evidence": "P1: Agent.artifact -> Artifact [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Agent.artifact -> Artifact [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Organisation.normativespecification",
+    "Source evidence": "P1: Organisation.normativespecification -> NormativeSpecification [1..1]; containment=true; diamond đen tại source",
+    "Current Ecore": "Organisation.normativespecification -> NormativeSpecification [1..1]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Organisation.structuralspecification",
+    "Source evidence": "P1: Organisation.structuralspecification -> StructuralSpecification [1..1]; containment=true; diamond đen tại source",
+    "Current Ecore": "Organisation.structuralspecification -> StructuralSpecification [1..1]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Organisation.functionalspecification",
+    "Source evidence": "P1: Organisation.functionalspecification -> FunctionalSpecification [1..1]; containment=true; diamond đen tại source",
+    "Current Ecore": "Organisation.functionalspecification -> FunctionalSpecification [1..1]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Organisation.deploysAgent",
+    "Source evidence": "P1: Organisation.deploysAgent -> Agent [1..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Organisation.deploysAgent -> Agent [1..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "NormativeSpecification.norm",
+    "Source evidence": "P1: NormativeSpecification.norm -> Norm [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "NormativeSpecification.norm -> Norm [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "StructuralSpecification.group",
+    "Source evidence": "P1: StructuralSpecification.group -> Group [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "StructuralSpecification.group -> Group [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "StructuralSpecification.role",
+    "Source evidence": "P1: StructuralSpecification.role -> Role [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "StructuralSpecification.role -> Role [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "FunctionalSpecification.scheme",
+    "Source evidence": "P1: FunctionalSpecification.scheme -> Scheme [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "FunctionalSpecification.scheme -> Scheme [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Norm.Nrole",
+    "Source evidence": "P1: Norm.Nrole -> Role [1..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "Norm.Nrole -> Role [1..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Norm.NMission",
+    "Source evidence": "P1: Norm.NMission -> Mission [1..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "Norm.NMission -> Mission [1..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Group.hasSubGroups",
+    "Source evidence": "P1: Group.hasSubGroups -> Group [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Group.hasSubGroups -> Group [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Group.RefRole",
+    "Source evidence": "P1: Group.RefRole -> Role [1..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Group.RefRole -> Role [1..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Group.formationconstraints",
+    "Source evidence": "P1: Group.formationconstraints -> FormationConstraints [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Group.formationconstraints -> FormationConstraints [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Group.link",
+    "Source evidence": "P1: Group.link -> Link [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Group.link -> Link [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Role.Extendsrole",
+    "Source evidence": "P1: Role.Extendsrole -> Role [0..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "Role.Extendsrole -> Role [0..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Role.players",
+    "Source evidence": "P1: Role.players -> Agent [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Role.players -> Agent [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Scheme.SchemeOPlan",
+    "Source evidence": "P1: Scheme.SchemeOPlan -> OPlan [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Scheme.SchemeOPlan -> OPlan [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Scheme.SchemeOgoal",
+    "Source evidence": "P1: Scheme.SchemeOgoal -> OGoal [1..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Scheme.SchemeOgoal -> OGoal [1..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Scheme.mission",
+    "Source evidence": "P1: Scheme.mission -> Mission [1..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Scheme.mission -> Mission [1..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Scheme.Splan",
+    "Source evidence": "P1: Scheme.Splan -> TriggeringEvent [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Scheme.Splan -> TriggeringEvent [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Mission.ogoal",
+    "Source evidence": "P1: Mission.ogoal -> OGoal [1..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Mission.ogoal -> OGoal [1..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Mission.Mplan",
+    "Source evidence": "P1: Mission.Mplan -> TriggeringEvent [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Mission.Mplan -> TriggeringEvent [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "OPlan.FirstOgoal",
+    "Source evidence": "P1: OPlan.FirstOgoal -> OGoal [1..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "OPlan.FirstOgoal -> OGoal [1..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "OPlan.Splan",
+    "Source evidence": "P1: OPlan.Splan -> TriggeringEvent [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "OPlan.Splan -> TriggeringEvent [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "OGoal.NextOgoal",
+    "Source evidence": "P1: OGoal.NextOgoal -> OGoal [0..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "OGoal.NextOgoal -> OGoal [0..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "OGoal.OGoalToOPlan",
+    "Source evidence": "P1: OGoal.OGoalToOPlan -> OPlan [0..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "OGoal.OGoalToOPlan -> OPlan [0..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "OGoal.OGoalToGoal",
+    "Source evidence": "P1: OGoal.OGoalToGoal -> Goal [0..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "OGoal.OGoalToGoal -> Goal [0..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "TriggeringEvent.planoperator",
+    "Source evidence": "P1: TriggeringEvent.planoperator -> OPlan [0..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "TriggeringEvent.planoperator -> OPlan [0..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "TriggeringEvent.triggersPlan",
+    "Source evidence": "P1: TriggeringEvent.triggersPlan -> Plan [1..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "TriggeringEvent.triggersPlan -> Plan [1..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Belief.triggeredBy",
+    "Source evidence": "P1: Belief.triggeredBy -> TriggeringEvent [1..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "Belief.triggeredBy -> TriggeringEvent [1..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Goal.triggeredBy",
+    "Source evidence": "P1: Goal.triggeredBy -> TriggeringEvent [1..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Goal.triggeredBy -> TriggeringEvent [1..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Workspace.artifact",
+    "Source evidence": "P1: Workspace.artifact -> Artifact [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Workspace.artifact -> Artifact [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Workspace.hasSubworkspace",
+    "Source evidence": "P1: Workspace.hasSubworkspace -> Workspace [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Workspace.hasSubworkspace -> Workspace [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Artifact.port",
+    "Source evidence": "P1: Artifact.port -> Port [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Artifact.port -> Port [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Artifact.obsproperty",
+    "Source evidence": "P1: Artifact.obsproperty -> ObsProperty [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Artifact.obsproperty -> ObsProperty [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Artifact.operation",
+    "Source evidence": "P1: Artifact.operation -> AbsOperation [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Artifact.operation -> AbsOperation [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Port.linkArtifacts",
+    "Source evidence": "P1: Port.linkArtifacts -> Artifact [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Port.linkArtifacts -> Artifact [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "ObsProperty.obsproperty",
+    "Source evidence": "P1: ObsProperty.obsproperty -> Belief [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "ObsProperty.obsproperty -> Belief [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "AbsOperation.RefObsproperty",
+    "Source evidence": "P1: AbsOperation.RefObsproperty -> ObsProperty [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "AbsOperation.RefObsproperty -> ObsProperty [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Operation.guardedBy",
+    "Source evidence": "P1: Operation.guardedBy -> GuardOperation [0..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "Operation.guardedBy -> GuardOperation [0..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Operation.callsInternal",
+    "Source evidence": "P1: Operation.callsInternal -> InternalOperation [0..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "Operation.callsInternal -> InternalOperation [0..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "ExternalAction.operation",
+    "Source evidence": "P1: ExternalAction.operation -> AbsOperation [0..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "ExternalAction.operation -> AbsOperation [0..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Plan.RefArtifact",
+    "Source evidence": "P1: Plan.RefArtifact -> Artifact [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Plan.RefArtifact -> Artifact [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Plan.hasContext",
+    "Source evidence": "P1: Plan.hasContext -> Context [1..1]; containment=true; diamond đen tại source",
+    "Current Ecore": "Plan.hasContext -> Context [1..1]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Plan.hasBody",
+    "Source evidence": "P1: Plan.hasBody -> Body [1..1]; containment=true; diamond đen tại source",
+    "Current Ecore": "Plan.hasBody -> Body [1..1]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Plan.hasAction",
+    "Source evidence": "P1: Plan.hasAction -> Action [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Plan.hasAction -> Action [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Body.bodyterm",
+    "Source evidence": "P1: Body.bodyterm -> BodyTerm [0..*]; containment=true; diamond đen tại source",
+    "Current Ecore": "Body.bodyterm -> BodyTerm [0..*]; containment=true; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Body.firstAction",
+    "Source evidence": "P1: Body.firstAction -> Action [1..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "Body.firstAction -> Action [1..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Action.nextAction",
+    "Source evidence": "P1: Action.nextAction -> Action [0..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "Action.nextAction -> Action [0..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Context.contextRule",
+    "Source evidence": "P1: Context.contextRule -> Rule [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Context.contextRule -> Rule [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Context.contextBelief",
+    "Source evidence": "P1: Context.contextBelief -> Belief [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Context.contextBelief -> Belief [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "MentalNotes.impliesG",
+    "Source evidence": "P1: MentalNotes.impliesG -> Goal [1..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "MentalNotes.impliesG -> Goal [1..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "MentalNotes.impliesB",
+    "Source evidence": "P1: MentalNotes.impliesB -> Belief [1..1]; containment=false; không có diamond tại source",
+    "Current Ecore": "MentalNotes.impliesB -> Belief [1..1]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "EReference",
+    "Element": "Message.messageToagent",
+    "Source evidence": "P1: Message.messageToagent -> Agent [0..*]; containment=false; không có diamond tại source",
+    "Current Ecore": "Message.messageToagent -> Agent [0..*]; containment=false; eOpposite=null",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "LinkedOperation -> AbsOperation",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào AbsOperation",
+    "Current Ecore": "eSuperTypes chứa #//AbsOperation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "InternalOperation -> AbsOperation",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào AbsOperation",
+    "Current Ecore": "eSuperTypes chứa #//AbsOperation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "GuardOperation -> AbsOperation",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào AbsOperation",
+    "Current Ecore": "eSuperTypes chứa #//AbsOperation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "Operation -> AbsOperation",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào AbsOperation",
+    "Current Ecore": "eSuperTypes chứa #//AbsOperation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "Norm -> Organisation",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào Organisation",
+    "Current Ecore": "eSuperTypes chứa #//Organisation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "Group -> Organisation",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào Organisation",
+    "Current Ecore": "eSuperTypes chứa #//Organisation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "Role -> Organisation",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào Organisation",
+    "Current Ecore": "eSuperTypes chứa #//Organisation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "Scheme -> Organisation",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào Organisation",
+    "Current Ecore": "eSuperTypes chứa #//Organisation",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "Action -> BodyTerm",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào BodyTerm",
+    "Current Ecore": "eSuperTypes chứa #//BodyTerm",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "ExternalAction -> Action",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào Action",
+    "Current Ecore": "eSuperTypes chứa #//Action",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "InternalAction -> Action",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào Action",
+    "Current Ecore": "eSuperTypes chứa #//Action",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "TriggeringEvent -> Action",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào Action",
+    "Current Ecore": "eSuperTypes chứa #//Action",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "MentalNotes -> BodyTerm",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào BodyTerm",
+    "Current Ecore": "eSuperTypes chứa #//BodyTerm",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Generalization",
+    "Element": "Message -> InternalAction",
+    "Source evidence": "P1: đường xám, hollow triangle trỏ vào InternalAction",
+    "Current Ecore": "eSuperTypes chứa #//InternalAction",
+    "Status": "EXACT",
+    "Confidence": "HIGH",
+    "Action": "Giữ nguyên."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "MAS.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "MAS.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "MAS.PlatformParamters",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "MAS.PlatformParamters",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Agent.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Agent.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Workspace.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Workspace.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Workspace.Path",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Workspace.Path",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Workspace.Host",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Workspace.Host",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Artifact.artifactName",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Artifact.artifactName",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Artifact.className",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Artifact.className",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Artifact.Parameter",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Artifact.Parameter",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Artifact.IDVar",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Artifact.IDVar",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Artifact.isInitial",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Port.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Port.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "ObsProperty.ParamName",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "ObsProperty.ParamName",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "ObsProperty.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "ObsProperty.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "ObsProperty.initialValue",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "Không áp dụng: chưa khai báo EAttribute",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "ObsProperty.initialValue",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "Không có EAttribute; annotation ghi unresolved.",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "AbsOperation.className",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "AbsOperation.className",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "AbsOperation.signalExpression",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "AbsOperation.signalExpression",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "AbsOperation.awaitExpression",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "AbsOperation.awaitExpression",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "AbsOperation.await_timeExpression",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "AbsOperation.await_timeExpression",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "AbsOperation.paramName",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "Không áp dụng: chưa khai báo EAttribute",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "AbsOperation.paramName",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "Không có EAttribute; annotation ghi unresolved.",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Organisation.id",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Organisation.id",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Norm.type",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Norm.type",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Norm.timeConstraint",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Norm.timeConstraint",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Group.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Group.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Group.min",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Group.min",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Group.max",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Group.max",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Role.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Role.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Role.min",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Role.min",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Role.max",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Role.max",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Scheme.PlanOperator",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Scheme.PlanOperator",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "FormationConstraints.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "FormationConstraints.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "FormationConstraints.biDir",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "FormationConstraints.scope",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "FormationConstraints.type",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "FormationConstraints.type",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "FormationConstraints.to",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "FormationConstraints.to",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "FormationConstraints.from",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "FormationConstraints.from",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Link.type",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Link.type",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Link.biDir",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Link.scope",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Link.from",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Link.from",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Link.to",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Link.to",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Mission.max",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Mission.max",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Mission.min",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Mission.min",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "OPlan.Sequence",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "OPlan.Parallel",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "OGoal.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "OGoal.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "OGoal.isRootGoal",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Belief.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Belief.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Belief.isInitial",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Rule.Expression",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Rule.Expression",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Goal.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Goal.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Plan.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Plan.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Plan.asBeliefAddition",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Plan.asBeliefAddition",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Plan.asQuery",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Plan.asQuery",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Plan.isAtomic",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Plan.isAtomic",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Plan.atomicLabel",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Plan.atomicLabel",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Plan.argID",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Plan.argID",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Plan.isInitial",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Body.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Body.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Context.Expression",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Context.Expression",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Action.Name",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Action.Name",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Action.Expression",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Action.Expression",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "TriggeringEvent.isSeparateIntention",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "TriggeringEvent.isInitial",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "TriggeringEvent.ttf",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "TriggeringEvent.ttf",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "TriggeringEvent.ds",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "TriggeringEvent.ds",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "TriggeringEvent.deletion",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "TriggeringEvent.addAndDel",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "Không áp dụng: chưa khai báo EAttribute",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "TriggeringEvent.addAndDel",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "Không có EAttribute; annotation ghi unresolved.",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Message.content",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Message.content",
+    "Source evidence": "P1 không hiển thị default tường minh; P2/P3 không xác định.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh)",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Attribute bounds",
+    "Element": "Message.isBroadcast",
+    "Source evidence": "P1 không in lowerBound/upperBound; P2/P3 không xác định.",
+    "Current Ecore": "0..1 theo mặc định Ecore",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Không coi bounds mặc định là bằng chứng từ tác giả."
+  },
+  {
+    "Category": "Attribute default",
+    "Element": "Message.isBroadcast",
+    "Source evidence": "P1: isBroadcast : EBoolean =; giá trị sau = bị cắt.",
+    "Current Ecore": "defaultValueLiteral=null (không có literal tường minh); effective EBoolean default=false",
+    "Status": "UNRESOLVED_FROM_SOURCE",
+    "Confidence": "HIGH",
+    "Action": "Không suy ra default của tác giả từ default nội tại/việc thiếu literal."
+  },
+  {
+    "Category": "Serialization metadata",
+    "Element": "EPackage nsURI/nsPrefix/name",
+    "Source evidence": "P1 không cung cấp namespace; P3 Listing 1 dòng 21 có dSML4JaCaMo.Operation.",
+    "Current Ecore": "name=dSML4JaCaMo; nsURI=urn:dsml4jacamo:2024:reconstructed; nsPrefix=dSML4JaCaMo",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Giữ metadata địa phương và provenance; không tuyên bố namespace gốc."
+  },
+  {
+    "Category": "Serialization flags",
+    "Element": "Tất cả EAttribute/EReference",
+    "Source evidence": "P1 không thể hiện ordered, unique, derived, transient, volatile, unsettable hoặc thiết lập eOpposite nội bộ.",
+    "Current Ecore": "Không đặt các flag này; 63 reference có eOpposite=null.",
+    "Status": "INFERRED_NOT_PROVEN",
+    "Confidence": "HIGH",
+    "Action": "Giữ mặc định; EXACT của reference chỉ áp dụng tên/source/target/direction/bounds/containment nhìn thấy."
+  }
+]

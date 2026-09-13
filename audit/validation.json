@@ -1,0 +1,159 @@
+{
+  "errors": [],
+  "xml_well_formed": true,
+  "xmi_root_and_version": true,
+  "inheritance_cycles": [],
+  "direct_containment_type_cycles": [],
+  "effective_containment_type_cycles": [
+    [
+      "FunctionalSpecification",
+      "Scheme",
+      "FunctionalSpecification"
+    ],
+    [
+      "FunctionalSpecification",
+      "Scheme",
+      "NormativeSpecification",
+      "Norm",
+      "FunctionalSpecification"
+    ],
+    [
+      "FunctionalSpecification",
+      "Scheme",
+      "NormativeSpecification",
+      "Norm",
+      "StructuralSpecification",
+      "Group",
+      "FunctionalSpecification"
+    ],
+    [
+      "FunctionalSpecification",
+      "Scheme",
+      "NormativeSpecification",
+      "Norm",
+      "StructuralSpecification",
+      "Role",
+      "FunctionalSpecification"
+    ],
+    [
+      "FunctionalSpecification",
+      "Scheme",
+      "StructuralSpecification",
+      "Group",
+      "FunctionalSpecification"
+    ],
+    [
+      "FunctionalSpecification",
+      "Scheme",
+      "StructuralSpecification",
+      "Group",
+      "NormativeSpecification",
+      "Norm",
+      "FunctionalSpecification"
+    ],
+    [
+      "FunctionalSpecification",
+      "Scheme",
+      "StructuralSpecification",
+      "Role",
+      "FunctionalSpecification"
+    ],
+    [
+      "FunctionalSpecification",
+      "Scheme",
+      "StructuralSpecification",
+      "Role",
+      "NormativeSpecification",
+      "Norm",
+      "FunctionalSpecification"
+    ],
+    [
+      "Group",
+      "NormativeSpecification",
+      "Norm",
+      "StructuralSpecification",
+      "Group"
+    ],
+    [
+      "Group",
+      "StructuralSpecification",
+      "Group"
+    ],
+    [
+      "Norm",
+      "NormativeSpecification",
+      "Norm"
+    ],
+    [
+      "Norm",
+      "StructuralSpecification",
+      "Role",
+      "NormativeSpecification",
+      "Norm"
+    ],
+    [
+      "Role",
+      "StructuralSpecification",
+      "Role"
+    ]
+  ],
+  "nonexact": [
+    [
+      "attributes",
+      "AbsOperation.paramName",
+      "UNRESOLVED_FROM_SOURCE",
+      {
+        "owner": "AbsOperation",
+        "name": "paramName",
+        "EType": null,
+        "lowerBound": null,
+        "upperBound": null,
+        "defaultValueLiteral": "NOT_SHOWN",
+        "evidence": "P1 Figure 1, AbsOperation attribute compartment"
+      },
+      null
+    ],
+    [
+      "attributes",
+      "ObsProperty.initialValue",
+      "UNRESOLVED_FROM_SOURCE",
+      {
+        "owner": "ObsProperty",
+        "name": "initialValue",
+        "EType": null,
+        "lowerBound": null,
+        "upperBound": null,
+        "defaultValueLiteral": "NOT_SHOWN",
+        "evidence": "P1 Figure 1, ObsProperty attribute compartment"
+      },
+      null
+    ],
+    [
+      "attributes",
+      "TriggeringEvent.addAndDel",
+      "UNRESOLVED_FROM_SOURCE",
+      {
+        "owner": "TriggeringEvent",
+        "name": "addAndDel",
+        "EType": null,
+        "lowerBound": null,
+        "upperBound": null,
+        "defaultValueLiteral": "NOT_SHOWN",
+        "evidence": "P1 Figure 1, TriggeringEvent attribute compartment"
+      },
+      null
+    ]
+  ],
+  "counts": {
+    "classes": 37,
+    "attributes": 67,
+    "references": 63
+  },
+  "hashes": {
+    "Core/Bài báo 1.pdf": "93f5d1450946869a254919bd79f9636ab123f46575bab0ded3b68499c7d07461",
+    "Core/Metamodel-2024.jpg": "225f82b255ffb743bf4c6f651056b959489039b00e1c288b887cfe1a6712d0d3",
+    "Core/JaCaMo-Metamodel.drawio": "d6b3dc476c6874393bbb9dc58ac1a8271139f48e039580bf187d8bea17c69cc7",
+    "Core/JaCaMo-Metamodel.ecore": "c0aafab786c5ff3fcb468aeaf1b18b62865292e6590ffca2b9b2e962a9067fe7",
+    "audit/source-inventory.json": "fb4568c63777520c461b5b60a40302f124d07266345a5feda56c0f3af7105c4e"
+  }
+}
