@@ -57,8 +57,8 @@ $emfCp = @(
   "$env:USERPROFILE/.m2/repository/org/eclipse/emf/org.eclipse.emf.ecore.xmi/2.39.0/org.eclipse.emf.ecore.xmi-2.39.0.jar"
 ) -join [IO.Path]::PathSeparator
 python validate_dsml4jacamo_ecore.py --self-test --emf-classpath $emfCp --java "$env:JAVA_HOME/bin/java.exe"
-javac -cp $emfCp audit/ValidateEcore.java
-java -cp "$emfCp;audit" ValidateEcore Core/JaCaMo-Metamodel.ecore
+& "$env:JAVA_HOME/bin/javac.exe" -cp $emfCp audit/ValidateEcore.java
+& "$env:JAVA_HOME/bin/java.exe" -cp "$emfCp;audit" ValidateEcore Core/JaCaMo-Metamodel.ecore
 ```
 
 Kiểm tra exit code từng lệnh; chỉ lưu stdout vào `emf-validation.txt` sau khi
